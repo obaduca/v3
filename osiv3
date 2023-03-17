@@ -1,4 +1,1 @@
-hookfunction((gcinfo or collectgarbage or GetMemoryUsageMbForTag or getMemoryUsageMbForTag), function(...) return math.random(800,850) end)
-
-if getgenv().External == true then loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7fe94d300ca894a77115e85b6c21d0a0.lua"))()
-else loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cb48d97d43d9327c6207809c799bf84c.lua"))() end
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7fe94d300ca894a77115e85b6c21d0a0.lua"))()
